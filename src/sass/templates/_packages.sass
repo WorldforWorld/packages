@@ -1,0 +1,131 @@
+.wrap
+  display: flex
+  flex-wrap: wrap
+  margin-left: -15px
+  margin-right: -15px
+  justify-content: center
+.title
+  margin-top: 40px
+  margin-bottom: 50px
+  font-style: normal
+  font-weight: bold
+  font-size: 36px
+  line-height: 45px
+  text-align: center
+  text-transform: uppercase
+  color: $title
+.card
+  max-width: 350px
+  margin: 15px
+  background: $card_bg
+  border-radius: 8px
+  color: $card_text
+  &_row
+    display: flex
+    flex-direction: row
+    max-width: 730px
+  &__image
+    position: relative
+    &_border
+      max-width: 366px
+      width: 100%
+      border-radius: 8px 0 0 8px !important
+      margin-bottom: -3px
+    & img
+      border-radius: 8px 8px 0 0
+  &__flag
+    position: absolute
+    top: 26px
+    left: 0
+    padding: 4px 9px
+    border-radius: 0px 4px 4px 0px
+    font-style: normal
+    font-weight: 600
+    font-size: 8px
+    line-height: 10px
+    background: $button
+    &_size
+      padding: 8px 21px 7px 11px
+      font-weight: 600
+      font-size: 12px
+      line-height: 15px
+  &__star
+    margin-bottom: 2px
+    margin-right: -3px
+  &__information
+    padding: 27px 21px 30px 32px
+    &_width
+      max-width: 364px
+      padding-left: 46px
+      padding-top: 41px
+  &__tittle
+    margin: 0
+    margin-bottom: 23px
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+  &__text
+    display: inline-block
+    margin-top: 5px
+    margin-bottom: 30px
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 160.6%
+  &__svg
+    width: 14px
+    height: 14px
+    margin-right: 14px
+    &_star
+      width: 8px
+      height: 8px
+      margin-left: -2px
+  &__subtitle
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+  &__list
+    &_margin-bottom
+      margin-bottom: 37px
+  &__prise
+    display: flex
+    justify-content: space-between
+    align-items: flex-end
+  &__button
+    margin-bottom: -5px
+.value
+  display: flex
+  flex-direction: column
+  &__past
+    margin-bottom: 5px
+    font-size: 14px
+    line-height: 18px
+    text-decoration-line: line-through
+  &__real
+    font-size: 24px
+    line-height: 30px
+    font-style: normal
+    font-weight: bold
+
+.button
+  display: inline-block
+  padding: 11px 27px 10px 25px
+  border-radius: 4px
+  background: $button
+  font-size: 14px
+  line-height: 19px
+  font-family: 'Nunito', sans-serif
+  font-style: normal
+  font-weight: 600
+  color: $card_text
+  text-decoration: none
+ul
+  padding-left: 0
+  margin-bottom: 24px
+li
+  display: flex
+  align-items: center
+  list-style-type: none
+  margin-bottom: 11px
